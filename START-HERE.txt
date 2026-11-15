@@ -1,0 +1,11 @@
+WARP — MINIMAL CLOUDFLARE INSTALL
+
+1. Create a public GitHub repository.
+2. Upload these source files, preserving the src/ and test/ folders.
+3. In README.md, change REPLACE-OWNER/REPLACE-REPOSITORY to your GitHub owner/repository.
+4. Click the Deploy to Cloudflare button in README.md.
+5. Authorise/confirm deployment; open the workers.dev URL and /health.
+6. Try Generate & Download Config; /health alone does not test WARP registration.
+
+No database, server, or Windows software is required.
+IMPORTANT: WARP API may reject requests with HTTP 403 despite successful deployment.
